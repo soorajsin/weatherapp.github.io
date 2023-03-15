@@ -3,10 +3,7 @@
 var preloader = document.getElementById('loading');
 
 function myLoadingPage() {
-    // preloader.style.display = 'none';
-    setTimeout(() =>{
-        preloader.style.display = 'none';
-    },2000);
+    preloader.style.display = 'none';
 }
 
 
