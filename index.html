@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
-    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk7LLwdeWWpQNACFPGljrUChsWyBVe5_c8m_srI8I8-Q&s" type="image/x-icon">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk7LLwdeWWpQNACFPGljrUChsWyBVe5_c8m_srI8I8-Q&s"
+        type="image/x-icon">
 </head>
-<body>
+
+<body onload="myLoadingPage()">
+    <!-- div for loading -->
+    <div id="loading"></div>
+
     <div class="app-main">
         <div class="searchInputBox">
             <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
@@ -30,4 +37,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
