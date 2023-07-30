@@ -82,3 +82,23 @@ body {
     font-size: 12pt;
     font-weight: 600;
 }
+
+
+
+
+
+
+
+
+
+
+/* ================      current date and time ======================= */
+#datetime{
+    position: fixed;
+    right: 50px;
+    top: 35px;
+}
+#datetime h5 #time{
+    color: #fff;
+    font-size: 28px;
+}
