@@ -1,10 +1,8 @@
 // ============================loading part of page============
 
-var preloader = document.getElementById('loading');
-
-function myLoadingPage() {
-    preloader.style.display = 'none';
-}
+setTimeout(function () {
+    document.getElementById('loading').style.display = 'none';
+}, 3000)
 
 
 
